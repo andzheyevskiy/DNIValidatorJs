@@ -15,7 +15,7 @@ export default function validateDNI(dni, excludeNIE = false) {
     const regex = /^[0-9]{8}[TRWAGMYFPDXBNJZSQVHLCKE]$/i
     if (!regex.test(string)) return false
 
-    const numbers = Number(string.slice(0, 8))
+    const numbers = parseInt(string)
     const module = numbers % 23
     return string[8].toUpperCase() === letters[module]
 }
