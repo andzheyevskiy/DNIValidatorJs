@@ -1,0 +1,18 @@
+{
+  "name": "dnivalidatorjs",
+  "version": "1.0.0",
+  "description": "Simple DNI/NIE validator.",
+  "main": "index.cjs",
+  "module": "index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andzheyevskiy/DNIValidatorJs.git"
+  },
+  "keywords": ["dni","nie","validator"],
+  "author": "Igor Andzheyevskiy Zakharyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andzheyevskiy/DNIValidatorJs/issues"
+  },
+  "homepage": "https://github.com/andzheyevskiy/DNIValidatorJs#readme"
+}
