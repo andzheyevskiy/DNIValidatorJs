@@ -4,6 +4,9 @@
   "description": "Simple DNI/NIE validator.",
   "main": "index.cjs",
   "module": "index.mjs",
+  "scripts": {
+    "test": "node ./test.cjs && node ./test.mjs"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andzheyevskiy/DNIValidatorJs.git"
